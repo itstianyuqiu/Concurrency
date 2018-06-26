@@ -1,4 +1,4 @@
-package ictgradschool.industry.lab13.examples.example02b;
+package ictgradschool.industry.lab_concurrency.examples.example02a;
 
 import ictgradschool.NameGenerator;
 
@@ -6,18 +6,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * A demonstration of thread-safe behaviour.
+ * A demonstration of non-thread-safe behaviour (specifically, the lost update problem).
  *
- * In example02b, the ThreadSafeTheatreSeat object is a Monitor object (using the synchronized keyword). Therefore, multiple
- * threads cant access its methods at the same time, making lost updates a non-issue.
+ * This code may work fine, or, multiple customers might report that they could book the same theatre seat. There's
+ * no way to tell before running the code, what will happen.
  */
-public class ExamlpeTwoB {
+public class ExampleTwoA {
 
     private void start() throws InterruptedException {
         NameGenerator nameGen = new NameGenerator();
 
-        // A single thread-safe seat which every customer wants to book.
-        final ThreadSafeTheatreSeat seat = new ThreadSafeTheatreSeat();
+        // A single non-thread-safe seat which every customer wants to book.
+        final NonThreadSafeSeat seat = new NonThreadSafeSeat();
 
         // Create 100 threads representing customers trying to book the seat
         List<Thread> threads = new ArrayList<>();
@@ -53,7 +53,7 @@ public class ExamlpeTwoB {
 
     public static void main(String[] args) throws InterruptedException {
 
-        new ExamlpeTwoB().start();
+        new ExampleTwoA().start();
 
     }
 }

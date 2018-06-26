@@ -1,4 +1,4 @@
-package ictgradschool.industry.lab13.examples.example01;
+package ictgradschool.industry.lab_concurrency.examples.example01;
 
 import ictgradschool.Keyboard;
 

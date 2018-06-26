@@ -1,4 +1,4 @@
-package ictgradschool.industry.lab13.ex04;
+package ictgradschool.industry.lab_concurrency.ex04;
 
 /**
  * Class to represent a simple banking transaction.

@@ -1,4 +1,4 @@
-package ictgradschool.industry.lab13.examples.example03;
+package ictgradschool.industry.lab_concurrency.examples.example03;
 
 /**
  * An IComputeTask which calculates the nth fibonacci number

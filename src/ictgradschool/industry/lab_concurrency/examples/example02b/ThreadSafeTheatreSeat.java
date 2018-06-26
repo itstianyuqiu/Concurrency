@@ -1,4 +1,4 @@
-package ictgradschool.industry.lab13.examples.example02b;
+package ictgradschool.industry.lab_concurrency.examples.example02b;
 
 /**
  * A non-thread-safe seat

@@ -1,4 +1,4 @@
-package ictgradschool.industry.lab13.ex04;
+package ictgradschool.industry.lab_concurrency.ex04;
 
 import java.io.FileReader;
 import java.io.PrintWriter;

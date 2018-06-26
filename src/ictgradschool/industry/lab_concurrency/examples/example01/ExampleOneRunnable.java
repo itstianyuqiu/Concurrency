@@ -1,4 +1,4 @@
-package ictgradschool.industry.lab13.examples.example01;
+package ictgradschool.industry.lab_concurrency.examples.example01;
 
 /**
  * A simple Runnable that will continually increment the counter until its thread is interrupted.

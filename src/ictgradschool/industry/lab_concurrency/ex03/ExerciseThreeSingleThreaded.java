@@ -1,4 +1,4 @@
-package ictgradschool.industry.lab13.ex03;
+package ictgradschool.industry.lab_concurrency.ex03;
 
 import ictgradschool.Keyboard;
 

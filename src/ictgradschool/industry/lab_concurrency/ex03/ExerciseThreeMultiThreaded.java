@@ -1,4 +1,4 @@
-package ictgradschool.industry.lab13.ex03;
+package ictgradschool.industry.lab_concurrency.ex03;
 
 /**
  * TODO Create a multi-threaded program to calculate PI using the Monte Carlo method.

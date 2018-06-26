@@ -1,4 +1,4 @@
-package ictgradschool.industry.lab13.ex04;
+package ictgradschool.industry.lab_concurrency.ex04;
 
 /**
  * Simple class to represent a bank account. BankAccount objects store an 
